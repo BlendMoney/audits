@@ -54,6 +54,14 @@ All audit reports are publicly available and can be found in this directory.
 - **Scope**: Rate limiting enhancements in Strategy Manager contract (PR 80)
 - **Result**: No critical, high, medium, or low severity issues
 
+### 7. Swap Adapter Security Review
+
+- **Auditor**: Sherlock (PUSHO)
+- **Date**: November 27-28, 2025
+- **File**: `blend-25-12-05-0-sherlock.pdf`
+- **Scope**: Swap adapter implementations (`SwapAdapter.sol` and `PriceLib.sol`)
+- **Result**: 2 Low/Info issues identified and resolved (token sweeping functionality and code comment fixes)
+
 ## File Naming Convention
 
 Audit reports follow the naming pattern: `blend-YY-MM-DD-N-auditor.pdf`
