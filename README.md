@@ -62,6 +62,14 @@ All audit reports are publicly available and can be found in this directory.
 - **Scope**: Swap adapter implementations (`SwapAdapter.sol` and `PriceLib.sol`)
 - **Result**: 2 Low/Info issues identified and resolved (token sweeping functionality and code comment fixes)
 
+### 8. Ostium Integration and Bundler3 Compatibility Audit
+
+- **Auditor**: Sherlock (eeyore, montecristo)
+- **Date**: January 12-15, 2026
+- **File**: `blend-26-01-22-0-sherlock.pdf`
+- **Scope**: Ostium vault controllers integration and Morpho Bundler3 adapter compatibility (`OstiumVaultController.sol`, `SwapAdapter.sol`, `VaultToVaultAction.sol`, `BalanceReplacementAdapter.sol`)
+- **Result**: 2 Medium, 17 Low/Info issues identified and resolved (rebalance validation logic, pending order management, swap adapter improvements)
+
 ## File Naming Convention
 
 Audit reports follow the naming pattern: `blend-YY-MM-DD-N-auditor.pdf`
